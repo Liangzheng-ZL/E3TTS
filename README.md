@@ -1,6 +1,6 @@
-# BEDIT-TTS: TEXT-BASED SPEECH EDITING SYSTEM WITH BIDIRECTIONAL TRANSFORMERS
+# E<sup>3</sup>TTS: End-to-End Text-Based Speech Editing TTS System and Its Applications
 
-In our paper, we proposed BEdit-TTS: Text-Based Speech Editing System with Bidirectional Transformers. 
+In our paper, we proposed E<sup>3</sup>TTS: End-to-End Text-Based Speech Editing TTS System and Its Applications. 
 We provide our code as open source in this repository.
 
 The model code is at ```espnet/nets/pytorch_backend/e2e_tts_bedit.py```
@@ -14,7 +14,7 @@ Other packages are listed in requirements.yaml.
 ## Data
 To obtain duration information, you can use the [kaldi tool](https://kaldi-asr.org/) to train the GMM-HMM model to achieve forced alignment.
 
-To prepare the data of BEdit-TTS:
+To prepare the data of E<sup>3</sup>TTS:
 ```bash
 bash run.sh --stage 0 --stop_stage 0
 bash pre_bedit_data.sh --stage 1 --stop_stage 2 # for training data
